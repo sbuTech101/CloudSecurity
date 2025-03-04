@@ -11,9 +11,9 @@ Region – East US available on Zone 2
 
 Security Type – Standard 
 
-The we t create/select an image we are going to use for our virtual machine in this case I have an Ubuntu Minimal 24.04 LTS –x64 Gen2 
+Ubuntu Minimal 24.04 LTS –x64 Gen2 
 
-And our virtual machine size is Standard E2s V3 (2 Cups, 16Gib memory) 
+Virtual machine size is Standard E2s V3 (2 Cups, 16Gib memory) 
 
 Vm Architecture x64 
 
