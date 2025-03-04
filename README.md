@@ -5,6 +5,18 @@ This project spans across 6 parts where we dive into the world of cloud security
 
 -Creating a virtual Machine on azure 
 
+Name- Tpot-vm  
+
+Region – East US available on Zone 2  
+
+Security Type – Standard 
+
+The we t create/select an image we are going to use for our virtual machine in this case I have an Ubuntu Minimal 24.04 LTS –x64 Gen2 
+
+And our virtual machine size is Standard E2s V3 (2 Cups, 16Gib memory) 
+
+Vm Architecture x64 
+
 
 **Part2**
 
