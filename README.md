@@ -17,22 +17,20 @@ Virtual machine size is Standard E2s V3 (2 Cups, 16Gib memory)
 
 Vm Architecture x64 
 
-
-**Part2**
+<ins>**Part 2** </ins>
 
 Infrastructure as Code (IaC) is about using code to manage the computing infrastructure in the cloud rather than pointing and clicking and using the GUI. This includes things like operating systems, databases, and storage to name a few.
 
 **Tool :**
-
 Terraform
 
-**Part3**
+<ins>**Part 3** </ins>
 
-**Part4**
+<ins>**Part 4** </ins>
 
-**Part5**
+<ins>**Part 5** </ins>
 
-**Part6**
+<ins>**Part 6** </ins>
 
 
 
