@@ -5,6 +5,7 @@ This project spans across 6 parts where we dive into the world of cloud security
 In my part1 take you into creating the virtual machine using Azure.
 
 **specs:**
+
 Here we have a virtual machine running on azure. 
 And the specs are as follows: 
 Name- Tpot-vm  
