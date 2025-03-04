@@ -3,6 +3,8 @@ This project spans across 6 parts where we dive into the world of cloud security
 
 **Part 1**
 
+**Specs**
+
 **Part2**
 
 **Part3**
