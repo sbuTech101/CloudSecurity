@@ -39,6 +39,9 @@ apply — Apply the plan from the plan phase. This potentially changes the deplo
 
 destroy — Destroy all resources that are governed by this specific terraform environment.
 
+Utalize Azure CLI tools and configure it to be used with terraform.
+
+
 
 <ins>**Part 4** </ins>
 
