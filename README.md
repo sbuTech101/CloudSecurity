@@ -27,6 +27,18 @@ Terraform
 
 <ins>**Part 3** </ins>
 
+So here know we using terraform and we going to install terraform and we going to perform or first terrafrom life cycle.
+which is a 4 step process:
+
+init — Init. Initialize the (local) Terraform environment. Usually executed only once per session.
+
+plan — Plan. Compare the Terraform state with the as-is state in the cloud, build and display an execution plan. This does not change the deployment (read-only).
+
+apply — Apply the plan from the plan phase. This potentially changes the deployment (read and write).
+
+destroy — Destroy all resources that are governed by this specific terraform environment.
+
+
 <ins>**Part 4** </ins>
 
 <ins>**Part 5** </ins>
