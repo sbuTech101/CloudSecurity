@@ -47,6 +47,17 @@ Utalize Azure CLI tools and configure it to be used with terraform.
 
 <ins>**Part 5** </ins>
 
+**Goal**
+
+Checkov checks for all common configuration and security errors in your Terraform code BEFORE deploying it.
+
+Next up is Azure Infrastructure as Code - Part Five. Checkov is a static code analysis tool for scanning infrastructure as code (IaC) files for misconfigurations that may lead to security or compliance problems
+
+Install Checkov
+
+install Pip3 and Python
+
+
 <ins>**Part 6** </ins>
 
 
