@@ -19,6 +19,8 @@ Vm Architecture x64
 
 <ins>**Part 2** </ins>
 
+<ins>**Goal** </ins>
+
 Infrastructure as Code (IaC) is about using code to manage the computing infrastructure in the cloud rather than pointing and clicking and using the GUI. This includes things like operating systems, databases, and storage to name a few.
 
 **Tool :**
