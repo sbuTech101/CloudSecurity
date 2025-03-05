@@ -45,6 +45,12 @@ Utalize Azure CLI tools and configure it to be used with terraform.
 
 <ins>**Part 4** </ins>
 
+write configuration to create  a few new resources
+Deploying a honeypot via terraform.
+
+ssh into honeypot with username and password created from honeypot.
+
+
 <ins>**Part 5** </ins>
 
 **Goal**
@@ -59,6 +65,19 @@ install Pip3 and Python
 
 
 <ins>**Part 6** </ins>
+
+**Goal**
+
+ we are going to put everything together and generate a report that can be presented to small to medium sized businesses on their cloud security posture
+
+checkov -f main.tf running a check againt this file
+
+Install Prowler
+
+Prowler is an Open Source security tool to perform AWS, Azure, Google Cloud and Kubernetes security best practices assessments, audits, incident response, continuous monitoring, hardening and forensics readiness, and also remediations! 
+
+output of prowel results in output file
+
 
 
 
