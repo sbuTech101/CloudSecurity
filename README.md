@@ -27,6 +27,8 @@ Terraform
 
 <ins>**Part 3** </ins>
 
+<ins>**Goal** </ins>
+
 So here know we using terraform and we going to install terraform and we going to perform or first terrafrom life cycle.
 which is a 4 step process:
 
@@ -45,6 +47,8 @@ Utalize Azure CLI tools and configure it to be used with terraform.
 
 <ins>**Part 4** </ins>
 
+<ins>**Goal** </ins>
+
 write configuration to create  a few new resources
 Deploying a honeypot via terraform.
 
@@ -53,7 +57,7 @@ ssh into honeypot with username and password created from honeypot.
 
 <ins>**Part 5** </ins>
 
-**Goal**
+<ins>**Goal** </ins>
 
 Checkov checks for all common configuration and security errors in your Terraform code BEFORE deploying it.
 
@@ -65,8 +69,7 @@ install Pip3 and Python
 
 
 <ins>**Part 6** </ins>
-
-**Goal**
+<ins>**Goal** </ins>
 
  we are going to put everything together and generate a report that can be presented to small to medium sized businesses on their cloud security posture
 
