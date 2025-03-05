@@ -7,7 +7,7 @@ This project spans across 6 parts where we dive into the world of cloud security
 
 This honeypot project is a fake computer system or network that looks real but isn’t actually used for any important work. It’s designed to attract hackers who are up to no good.THis Honeypot is to show us what type of attacks we are going to be hit with and where they originate from.
 
-![image alt](Microsoft Game DVR - T-Pot Attack Map - Google Chrome - VLC media player 2025_03_05 22_00_51.png)
+![image alt](https://github.com/sbuTech101/CloudSecurity/blob/ed99ea5980029cbec4200487842029e4a181ee9c/Microsoft%20Game%20DVR%20-%20T-Pot%20Attack%20Map%20-%20Google%20Chrome%20-%20VLC%20media%20player%202025_03_05%2022_00_51.png)
 
 -Creating a virtual Machine on azure 
 
