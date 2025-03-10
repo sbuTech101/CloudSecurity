@@ -42,8 +42,7 @@ Terraform
 
 **Goal** 
 
-So here know we using terraform and we going to install terraform and we going to perform or first terrafrom life cycle.
-which is a 4 step process:
+Here, we’ll be using Terraform. First, we’ll install Terraform and then perform our first Terraform lifecycle, which is a 4-step process:
 
 init — Init. Initialize the (local) Terraform environment. Usually executed only once per session.
 
