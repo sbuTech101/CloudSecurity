@@ -1,7 +1,7 @@
 # CloudSecurity
 This project is divided into 6 parts where we explore cloud security, its architecture, and how we used different tools to secure our cloud environment.
 
-<ins>**Part 1: SettingUP honeyPot** </ins>
+<ins>**Part 1: SettingUP honeyPot**</ins>
 
 **Goal** 
 
