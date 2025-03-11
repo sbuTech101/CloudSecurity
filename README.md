@@ -42,7 +42,7 @@ Here, we’ll be using Terraform. First, we’ll install Terraform and then perf
 
 **Init:**  Initialize the (local) Terraform environment. Usually executed only once per session.
 
-**Plan:**  Compare the Terraform state with the as-is state in the cloud, build and display an execution plan. This does not change the deployment (read-only).
+**Plan:**  Compare the Terraform state with the as-is state in the cloud, build and display an execution plan.   This does not change the deployment (read-only).
 
 **Apply:**  Apply the plan from the plan phase. This potentially changes the deployment (read and write).
 
