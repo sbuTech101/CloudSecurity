@@ -4,13 +4,13 @@
 
 This TPOT (Threat Perception and Observation Tool) is designed to attract hackers with malicious intent. Much like bees are drawn to honey, hackers are lured to these honeypots because they appear to be easy targets. However, once they attempt to breach the system, cybersecurity experts can closely monitor their actions. This allows us to study how their attacks are carried out, the methods they use, and even trace where these attacks originate from.
 
-##Pre-Requiaites
+**Pre-Requiaites**
 
 Basic Understanding of Azure Portal
 
 Familarity with Vms
 
-##VM setup
+#VM setup
 
 To create a Tpot system ,youll need to create a virtual machine that will hold/run your tpot system ,which will be open to attacks
 so we need this in a virtual enviroment so that or physical machine wont be affected what better way than the azure cloud.
@@ -20,7 +20,7 @@ In our Azure Portal we will have a resource group and in that resopurce group wi
 
  Virtual Machine, Public IP address, Network Security Group
 
-##Virtual machine simulation:
+**Virtual machine simulation:**
 **Description**: This creation of the vm will allow us to run our resources in a controlled enviroment that can be deleted at anytime
 without harming our personal machine and also will also be to see what attacks do to our systems.
 
