@@ -14,7 +14,7 @@ Familarity with Vms
 
 To create a Tpot system ,youll need to create a virtual machine that will hold/run your tpot system ,which will be open to attacks
 so we need this in a virtual enviroment so that or physical machine wont be affected what better way than the azure cloud.
-To setup or Tpot we will have to:
+To setup our Tpot we will have to:
 
 In our Azure Portal we will have a resource group and in that resopurce group wil have
 
