@@ -40,7 +40,7 @@ Terraform
 
 Here, we’ll be using Terraform. First, we’ll install Terraform and then perform our first Terraform lifecycle, which is a 4-step process:
 
-**init:**  Initialize the (local) Terraform environment. Usually executed only once per session.
+**Init:**  Initialize the (local) Terraform environment. Usually executed only once per session.
 
 **Plan:**  Compare the Terraform state with the as-is state in the cloud, build and display an execution plan. This does not change the deployment (read-only).
 
