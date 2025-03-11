@@ -24,10 +24,6 @@ Virtual machine size is Standard E2s V3 (2 Cups, 16Gib memory)
 Vm Architecture x64 
 
 
-<ins>**Part 1** </ins>
-**Goal** 
-
-
 <ins>**Part 2** </ins>
 
 **Goal** 
