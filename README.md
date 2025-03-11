@@ -1,9 +1,9 @@
 # CloudSecurity
 This project is divided into 6 parts where we explore cloud security, its architecture, and how we used different tools to secure our cloud environment.
 
-<ins>**SettingUp HonePot** </ins>
+<ins>**Part 1: SettingUP honeyPot** </ins>
 
-**Goal**
+**Goal** 
 
 This honeypot project is a fake computer system or network that looks real but isn’t actually used for any important work. It’s designed to attract hackers who are up to no good.THis Honeypot is to show us what type of attacks we are going to be hit with and where they originate from.
 
