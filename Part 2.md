@@ -18,7 +18,7 @@ The ability to build and branch on environments easily.
 
 Infrastructure as Code (IaC) is a method of managing IT infrastructure using configuration files that describe the setup of resources like servers and networks, similar to how software code defines an application. These configuration files can be stored in version control systems (like Git), allowing teams to automate, track, and collaborate on infrastructure changes just like software code. This ensures consistency, reduces manual errors, and makes it easier to manage environments across development, testing, and production.
 
-Thehn we have 2 approaches when it comes to git.
+Then we have 2 approaches when it comes to Iac.
 
 **Immutable and Mutable Infrastructure**
 
