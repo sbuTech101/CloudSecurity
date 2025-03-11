@@ -40,14 +40,14 @@ Terraform
 
 Here, we’ll be using Terraform. First, we’ll install Terraform and then perform our first Terraform lifecycle, which is a 4-step process:
 
-<ins>**init:** </ins> Initialize the (local) Terraform environment. Usually executed only once per session.
+**init:** Initialize the (local) Terraform environment. Usually executed only once per session.
 
-<ins>**Plan :** </ins> Compare the Terraform state with the as-is state in the cloud, build and display an execution plan. This does not change the deployment (read-only).
+**Plan:** Compare the Terraform state with the as-is state in the cloud, build and display an execution plan. This does not change the deployment (read-only).
 
 
-<ins>**Apply:** </ins>Apply the plan from the plan phase. This potentially changes the deployment (read and write).
+**Apply:** Apply the plan from the plan phase. This potentially changes the deployment (read and write).
 
-<ins>**Destroy:** </ins>All resources that are governed by this specific terraform environment.
+**Destroy:** All resources that are governed by this specific terraform environment.
 
 Utalize Azure CLI tools and configure it to be used with terraform.
 
