@@ -9,7 +9,7 @@ This honeypot project is a fake computer system or network that looks real but i
 
 ![image alt](https://github.com/sbuTech101/CloudSecurity/blob/ed99ea5980029cbec4200487842029e4a181ee9c/Microsoft%20Game%20DVR%20-%20T-Pot%20Attack%20Map%20-%20Google%20Chrome%20-%20VLC%20media%20player%202025_03_05%2022_00_51.png)
 
--Creating a virtual Machine on azure 
+<ins>**Creating a virtual Machine on azure** </ins>
 
 Name- Tpot-vm  
 
