@@ -14,7 +14,7 @@ Reduced configuration errors.  Manual configurations are error-prone due to huma
 
 The ability to build and branch on environments easily. 
 
-**How does IaC Work?**
+<ins>***How does IaC Work?***<ins/>
 
 Infrastructure as Code (IaC) is a method of managing IT infrastructure using configuration files that describe the setup of resources like servers and networks, similar to how software code defines an application. These configuration files can be stored in version control systems (like Git), allowing teams to automate, track, and collaborate on infrastructure changes just like software code. This ensures consistency, reduces manual errors, and makes it easier to manage environments across development, testing, and production.
 
@@ -26,7 +26,7 @@ In mutable infrastructure, components are changed in production while the servic
 
 Immutable infrastructure, components and are set and assembled to create a full service or application.  If any change is required, the entire set of components has to be deleted and redeployed fully to be updated.
 
-We have 2 basic approaches to IaC:
+<ins>***We have 2 basic approaches to IaC***:<ins/>
 
 **Declarative** describes the desired end state of a system, and the IaC solution creates it accordingly.  Its simple to use if the developer knows what components and settings are needed.  
 
