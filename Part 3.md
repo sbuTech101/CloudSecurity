@@ -31,3 +31,6 @@ $ProgressPreference = 'SilentlyContinue'; Invoke-WebRequest -Uri https://aka.ms/
 And after the installation we can run the az command from the command prompt.
 In cmd: Type az login 
 
+https://github.com/sbuTech101/CloudSecurity/blob/bf865b8ec7ed704fb04b9145701939c5a3a4aa17/images/login%20into%20az%20with%20cmd.PNG
+
+
