@@ -29,7 +29,7 @@ Then we are going to install our ClI tool which is very simple to do we will jus
 $ProgressPreference = 'SilentlyContinue'; Invoke-WebRequest -Uri https://aka.ms/installazurecliwindows -OutFile .\AzureCLI.msi; Start-Process msiexec.exe -Wait -ArgumentList '/I AzureCLI.msi /quiet'; Remove-Item .\AzureCLI.msi
 
 And after the installation we can run the az command from the command prompt.
-In cmd: Type az login 
+In cmd: Type **az login** 
 
 https://github.com/sbuTech101/CloudSecurity/blob/bf865b8ec7ed704fb04b9145701939c5a3a4aa17/images/login%20into%20az%20with%20cmd.PNG
 
