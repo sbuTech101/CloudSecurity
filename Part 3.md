@@ -22,3 +22,12 @@ https://github.com/sbuTech101/CloudSecurity/blob/c790ae84b9d693eb751bb48cb9b0c75
 
 The Azure CLI (Command-Line Interface) is a cross-platform tool used to manage and interact with Microsoft Azure services and resources. It allows users to perform tasks like creating, configuring, and managing Azure resources directly from the command line, without the need for a graphical user interface (GUI).
 
+_Install The Azure CLI Tool_
+
+Then we are going to install our ClI tool which is very simple to do we will just run the followinf commmand.
+
+$ProgressPreference = 'SilentlyContinue'; Invoke-WebRequest -Uri https://aka.ms/installazurecliwindows -OutFile .\AzureCLI.msi; Start-Process msiexec.exe -Wait -ArgumentList '/I AzureCLI.msi /quiet'; Remove-Item .\AzureCLI.msi
+
+And after the installation we can run the az command from the command prompt.
+In cmd: Type az login 
+
