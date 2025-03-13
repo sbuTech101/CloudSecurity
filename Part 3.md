@@ -38,5 +38,9 @@ And from the we can select the account description we want to use and you can ch
 
 The after we need to write a configuration file for our terraform .
 
-found on the link below,
+found on the link below:
+
+https://github.com/sbuTech101/CloudSecurity/blob/5dce5d1ca335d873f45c248349c4c9982a72d9df/code%20main.tf
+
+
 
