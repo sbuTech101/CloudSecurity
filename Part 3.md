@@ -34,3 +34,5 @@ In cmd: Type **az login**
 https://github.com/sbuTech101/CloudSecurity/blob/bf865b8ec7ed704fb04b9145701939c5a3a4aa17/images/login%20into%20az%20with%20cmd.PNG
 
 
+And from the we can select the account description we want to use and you can choose  your account.
+
