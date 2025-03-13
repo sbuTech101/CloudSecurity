@@ -36,3 +36,7 @@ https://github.com/sbuTech101/CloudSecurity/blob/bf865b8ec7ed704fb04b9145701939c
 
 And from the we can select the account description we want to use and you can choose  your account.
 
+The after we need to write a configuration file for our terraform .
+
+found on the link below,
+
