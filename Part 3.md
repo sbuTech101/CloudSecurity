@@ -7,7 +7,7 @@ why?
 
 >Using Bash on Windows, you're likely running it within WSL(Windows subsystem for linux), which adds complexity to the installation. PowerShell keeps things simple and native to Windows environments.
 
-<ins>**I  nstalling terraform on powershell?**</ins>
+<ins>**Installing terraform on powershell?**</ins>
 
 -Run powershell as admin
 -Run the following command : curl.exe -O https://releases.hashicorp.com/terraform/0.12.26/terraform_0.12.26_windows_amd64.zip
