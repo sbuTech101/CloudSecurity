@@ -5,7 +5,7 @@
 >In this part of our project we are going to go through detailed steps on how to install terraform and in our project we utalise the powershell.
 why?
 
->Using Bash on Windows, you're likely running it within WSL(Windowsubsystem for linux, which adds complexity to the installation. PowerShell keeps things simple and native to Windows environments.
+>Using Bash on Windows, you're likely running it within WSL(Windowsubsystem for linux), which adds complexity to the installation. PowerShell keeps things simple and native to Windows environments.
 
 <ins>**installing terraform on powershell?**</ins>
 
