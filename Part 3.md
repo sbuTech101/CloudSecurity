@@ -1,4 +1,4 @@
-**Installing Terraform**
+</ins>**Installing Terraform**</ins>
 
 **Goal:**
 In this part of our project we are going to go through detailed steps on how to install terraform and in our project we utalise the powershell.
