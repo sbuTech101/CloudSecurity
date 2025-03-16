@@ -1,0 +1,42 @@
+**In this final Part of the project.**
+SO here are going to put everything together and show people the state of cloud security posture .
+we firatly going to analyze terraform code with checkov.
+
+Make a terraform directory and move there.
+Create main.tf with vscode
+and it will have the following configurations in it.
+
+**format the file**
+terraform fmt
+
+**Execute Checkov**
+checkov -f main.tf
+
+We have seven failed checks.  Looking through the list it is warning us for stuff that we have configured specifically like ports that are exposed to the public internet.  Since this is the honeypot that we just configured in
+Azure Cybersecurity Labs - Part Four, we know that this works and we know that this is how it needs to be configured to work properly.  
+
+>Then we deploy this to azure
+
+we login: **az login**
+
+**Then we initialize the directory.**
+>terraform init
+
+**Then we plan:**
+
+>terraform plan
+
+>then we apply
+
+**Prowler**
+Prowler is an Open Source security tool to perform AWS, Azure, Google Cloud and Kubernetes security best practices assessments, audits, incident response, continuous monitoring, hardening and forensics readiness, and also remediations! 
+We have Prowler CLI (Command Line Interface) that we call Prowler Open Source.
+
+**Install Prowel.**
+
+>pip3 install prowler
+
+**Run Prowel** 
+
+>prowler azure --az-cli-auth
+
