@@ -75,9 +75,6 @@ You can also make sure your configuration is syntactically valid and internally 
 if successful it will retun 
 Success! The configuration is valid.
 
-
-
-![image alt]
 (https://github.com/sbuTech101/CloudSecurity/blob/2bfcf8f2a0ea77bdfda695662f8a5aeff05984da/images/part%206%20terraform%20installed.png).
 
 **<ins>Apply your Terraform Configuration<ins/>**
