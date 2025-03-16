@@ -67,7 +67,7 @@ Than you can terraform plan to see any changes required for your infrustructure.
 
 **<ins>Format and validate the configuration</ins>**
 
-The >terraform fmt command automatically updates configurations in the current directory for readability and consistency.
+The **terraform fmt** command automatically updates configurations in the current directory for readability and consistency.
 which we have already done 
 
 You can also make sure your configuration is syntactically valid and internally consistent by using the >terraform validate command. 
@@ -75,6 +75,7 @@ You can also make sure your configuration is syntactically valid and internally 
 if successful it will retun 
 Success! The configuration is valid.
 
+https://github.com/sbuTech101/CloudSecurity/blob/2bfcf8f2a0ea77bdfda695662f8a5aeff05984da/images/part%206%20terraform%20installed.png
 
 **<ins>Apply your Terraform Configuration<ins/>**
 Run the terraform apply command to apply your configuration. This output shows the execution plan and will prompt you for approval before proceeding. If anything in the plan seems incorrect or dangerous. And if it is you can abort .
