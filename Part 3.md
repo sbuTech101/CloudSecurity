@@ -86,7 +86,7 @@ Run the terraform apply command to apply your configuration. This output shows t
 after everything has be completed we go onto to inspect ourst state.
 
 Terraform writes data into a field called terraform.tfstate and this file contains the properties and IDS of the resources  Terraform created so it can be managed and destroued going forward.And our >state file contains all of the data in our configuration file and may contain sensitive information which is best to keep safe.
-We can view the current state by using >terraform show.
+We can view the current state by using **terraform show.**
 
 and another useful command that we can use to review the information in our statefile is the >terraform list 
 
