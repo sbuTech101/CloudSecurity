@@ -45,3 +45,45 @@ https://github.com/sbuTech101/CloudSecurity/blob/5dce5d1ca335d873f45c248349c4c99
 
 
 
+**Terraform Block**
+
+just to explian a little on the terraform configuration file that we have.We have a terraform block as we can see which contains the terraform settings ,including the required providers that terraform will use to provision our infrustructure.On each provider the source attribute difines the hostname,a namespace ,and the provider type.
+
+**Providers**
+THis block configures the specified provider which is azurerm.SO this will be a plugin that terraform will use to create and manage our resouces.
+
+**Resource**
+
+Resource blocks have two strings before the block: the resource type and the resource name. In our project the resource type is azurerm_resource_group and the name is rg. 
+The prefix of the type maps to the name of the provider. For our project, Terraform manages the azurerm_resource_group resource with the azurerm provider. 
+Together, the resource type and resource name form a unique ID for the resource.
+
+So remeber in our part 2 we explained the terraform life cycle this is where we are going to use it.
+
+First we initialize or terraform-azure-directory .
+After we done with that we can now work with our terraform.
+
+Than you can terraform plan to see any changes required for your infrustructure.
+
+**<ins>Format and validate the configuration</ins>**
+
+The >terraform fmt command automatically updates configurations in the current directory for readability and consistency.
+which we have already done 
+
+You can also make sure your configuration is syntactically valid and internally consistent by using the >terraform validate command. 
+
+if successful it will retun 
+Success! The configuration is valid.
+
+
+**<ins>Apply your Terraform Configuration<ins/>**
+Run the terraform apply command to apply your configuration. This output shows the execution plan and will prompt you for approval before proceeding. If anything in the plan seems incorrect or dangerous. And if it is you can abort .
+
+after everything has be completed we go onto to inspect ourst state.
+
+Terraform writes data into a field called terraform.tfstate and this file contains the properties and IDS of the resources  Terraform created so it can be managed and destroued going forward.And our >state file contains all of the data in our configuration file and may contain sensitive information which is best to keep safe.
+We can view the current state by using >terraform show.
+
+and another useful command that we can use to review the information in our statefile is the >terraform list 
+
+And we aslo have the terraform state <subcommand>  This command has subcommands for advanced state management. These subcommands can be used to slice and dice the Terraform state. This is sometimes necessary in advanced cases.
