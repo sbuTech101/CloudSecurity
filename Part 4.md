@@ -1,5 +1,12 @@
 **Deploying A honeyPot via Terraform**
 
+**Create Terraform configuration file**
+
+>Below we create a a dir that will contain our terraform configurations files.
+
+https://github.com/sbuTech101/CloudSecurity/blob/299dd42a02b216a78b984ed4814327c80d4ad7b6/images/making%20a%20tpot%20dir.png
+
+
 In windoes we will create a folder called tpot then inside we create a file that will h
 there after we will open visual studio code and have the following configurations as shown in the following link.
 In this file that will create a few resources but we all doing this manualy unlike with GUI.
