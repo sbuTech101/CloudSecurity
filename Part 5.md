@@ -14,6 +14,8 @@ Checkov checks for all common configuration and security errors in your Terrafor
 - 
 Pip3 install checkov
 
+>https://github.com/sbuTech101/CloudSecurity/blob/e32809187ebbb1534b2ca3321196c8b4f7ce6a54/images/check%20installed%20part5.png
+
 The after we are will create a terraform direcorty and cd into it.
 
 Create  main.tf file with vscode 
