@@ -18,6 +18,8 @@ Pip3 install checkov
 
 The after we are will create a terraform direcorty and cd into it.
 
+>
+
 Create  main.tf file with vscode 
 THe create or paste code then save and exist vscode 
 -Then format the file
