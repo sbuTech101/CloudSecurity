@@ -6,6 +6,9 @@
 
 https://github.com/sbuTech101/CloudSecurity/blob/299dd42a02b216a78b984ed4814327c80d4ad7b6/images/making%20a%20tpot%20dir.png
 
+The after we create a file which we edit with vscode and the file contains configurations of the file.
+
+>https://github.com/sbuTech101/CloudSecurity/blob/11b0792041ce0abc17ee114153410409d5d5374e/Terraform%20config.files/Code%20main%20(2).tf
 
 In windoes we will create a folder called tpot then inside we create a file that will h
 there after we will open visual studio code and have the following configurations as shown in the following link.
