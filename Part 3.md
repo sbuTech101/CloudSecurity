@@ -65,6 +65,9 @@ After we done with that we can now work with our terraform.
 
 Than you can terraform plan to see any changes required for your infrustructure.
 
+It should look something like this:
+
+
 **<ins>Format and validate the configuration</ins>**
 
 The **terraform fmt** command automatically updates configurations in the current directory for readability and consistency.
