@@ -18,7 +18,7 @@ Pip3 install checkov
 
 The after we are will create a terraform direcorty and cd into it.
 
->
+>https://github.com/sbuTech101/CloudSecurity/blob/836a0115d66a08d39730482b27c24602d786da4c/images/creating%20checkov%20file.PNG
 
 Create  main.tf file with vscode 
 THe create or paste code then save and exist vscode 
