@@ -37,6 +37,7 @@ We have Prowler CLI (Command Line Interface) that we call Prowler Open Source.
 >pip3 install prowler
 
 **Run Prowel** 
+>https://github.com/sbuTech101/CloudSecurity/blob/6f3c10def7f25f117fbf93b9e99c5f9599346792/images/part%206%20prowel%20working%20and%20intializing%20scan.png
 
 >prowler azure --az-cli-auth
 
