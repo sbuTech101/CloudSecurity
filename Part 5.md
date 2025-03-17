@@ -8,7 +8,8 @@ Checkov checks for all common configuration and security errors in your Terrafor
 -Install Pip3 and Python 
 -
 
->
+>https://github.com/sbuTech101/CloudSecurity/blob/3b6a9086c7f172fd2802ab7f8331ddfb24e8b3ac/images/pip%20installed.png
+
 -Install Checkov
 - 
 Pip3 install checkov
