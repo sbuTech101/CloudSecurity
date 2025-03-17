@@ -67,6 +67,7 @@ Than you can terraform plan to see any changes required for your infrustructure.
 
 It should look something like this:
 
+https://github.com/sbuTech101/CloudSecurity/blob/17212b7ddeccb70c49601e3dd0f93aa1a9183562/images/terraform%20applied.PNG
 
 **<ins>Format and validate the configuration</ins>**
 
