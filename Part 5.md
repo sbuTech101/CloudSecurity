@@ -21,7 +21,10 @@ The after we are will create a terraform direcorty and cd into it.
 >https://github.com/sbuTech101/CloudSecurity/blob/836a0115d66a08d39730482b27c24602d786da4c/images/creating%20checkov%20file.PNG
 
 Create  main.tf file with vscode 
-THe create or paste code then save and exist vscode 
+THe create or paste code then save and exist vscode :
+
+>https://github.com/sbuTech101/CloudSecurity/blob/0445cbd8b7d2a6fdc8b67bb43b1e497f98d78f71/Terraform%20config.files/code%20main.tf
+
 -Then format the file
 >terraform fmt
 
