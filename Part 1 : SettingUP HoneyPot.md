@@ -2,13 +2,13 @@
 
 <ins>**Introduction**</ins>
 
-This TPOT (Threat Perception and Observation Tool) is designed to attract hackers with malicious intent. Much like bees are drawn to honey, hackers are lured to these honeypots because they appear to be easy targets. However, once they attempt to breach the system, cybersecurity experts can closely monitor their actions. This allows us to study how their attacks are carried out, the methods they use, and even trace where these attacks originate from.
+This TPOT (Threat Perception and Observation Tool) is designed to attract hackers with malicious intent.Hackers are attracted to honeypots because they seem like easy targets. However, when they try to break in, cybersecurity experts can monitor their actions. This allows us to study how they attack, what methods they use, and even trace where the attacks originate from. 
 
 **Pre-Requiaites**
 
-Basic Understanding of Azure Portal
+-Basic Understanding of Azure Portal
 
-Familarity with Vms
+-Familarity with Vms
 
 **VM Setup:**
 
