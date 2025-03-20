@@ -29,3 +29,5 @@ sudo reboot (when finished)
 
 Then we can ssh into out honeyPot in my case its : 
 
+https://github.com/sbuTech101/CloudSecurity/blob/3c397fa1cd187080f964f24f0bc577ded02fd8be/images/par4%20now%20we%20ssh%20into%20it.PNG
+
