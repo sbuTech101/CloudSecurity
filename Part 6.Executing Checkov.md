@@ -12,6 +12,8 @@ terraform fmt
 **Execute Checkov**
 checkov -f main.tf
 
+>https://github.com/sbuTech101/CloudSecurity/blob/5f5a6d6b612a40d467caf36a818dd74d447fbdf7/images/part6%20update%20checkov.png
+
 We have seven failed checks.  Looking through the list it is warning us for stuff that we have configured specifically like ports that are exposed to the public internet.  Since this is the honeypot that we just configured in
 Azure Cybersecurity Labs - Part Four, we know that this works and we know that this is how it needs to be configured to work properly.  
 
