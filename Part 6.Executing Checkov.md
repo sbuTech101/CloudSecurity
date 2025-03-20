@@ -47,3 +47,4 @@ pip3 install prowler
 
 THe after we have prowel test results and the output of test as file.
 >Prowel test 
+>https://github.com/sbuTech101/CloudSecurity/blob/8f9c9287e0471c7685ba8c7ed66acaf460878a6b/images/prowel%20test%20results%20part%206.PNG
