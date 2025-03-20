@@ -26,6 +26,10 @@ Select "Hive" install
 
 sudo reboot (when finished)
 
+**HoneyPot Installed**
+
+>https://github.com/sbuTech101/CloudSecurity/blob/17d701bb3fbd7b68016067f17832a8f6eb3f230c/images/part%204%20done.%20now%20we%20rebbot%20tpot.PNG
+
 
 Then we can ssh into out honeyPot in my case its : 
 
