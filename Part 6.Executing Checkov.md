@@ -44,3 +44,6 @@ pip3 install prowler
 
 >prowler azure --az-cli-auth
 
+
+THe after we have prowel test results and the output of test as file.
+>Prowel test 
