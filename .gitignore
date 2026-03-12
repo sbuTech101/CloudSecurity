@@ -1,0 +1,13 @@
+# Terraform state files
+terraform.tfstate
+terraform.tfstate.backup
+tpot/terraform.tfstate
+tpot/terraform.tfstate.backup
+*.tfstate
+# Terraform executables
+*.exe
+# Terraform providers
+.terraform/
+tpot/.terraform/
+# Personal files
+Sibusiso Sekhoto (11).pdf
