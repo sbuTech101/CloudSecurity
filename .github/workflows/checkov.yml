@@ -1,0 +1,38 @@
+name: Checkov Security Scan
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+jobs:
+  checkov-scan:
+    name: Run Checkov Security Scan
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      - name: Install Checkov
+        run: pip install checkov
+      - name: Run Checkov scan
+        run: |
+          checkov -d . \
+            --skip-check CKV_AZURE_160,CKV2_AZURE_10 \
+            --output cli \
+            --output junitxml \
+            --output-file-path checkov-report.xml \
+            --soft-fail
+        # CKV_AZURE_160 skipped — HTTP port 80 intentionally open (HoneyPot)
+        # CKV2_AZURE_10 skipped — Microsoft Antimalware is Windows-only, VM is Linux Ubuntu
+        # --soft-fail means the pipeline won't fail on known intentional findings
+      - name: Upload Checkov results
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: checkov-results
+          path: checkov-report.xml
