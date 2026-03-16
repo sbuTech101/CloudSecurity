@@ -27,9 +27,8 @@ The goal is to demonstrate a real-world security operations workflow — from in
 
 ---
 
-## 🏗️ Architecture
-![Alt text](folder/Untitled Diagram.drawio)
-
+##Architecture
+![Cloud Security Diagram](diagram.png)
 
 ## Technologies Used
 
