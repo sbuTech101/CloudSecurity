@@ -5,7 +5,7 @@ Infrastructure as Code (IaC) means writing your cloud infrastructure as code fil
 
 ---
 
-## Why Use IaC for This Project?
+## Why I Used IaC for This Project?
 
 | Manual (Portal) | Infrastructure as Code (Terraform) |
 |---|---|
