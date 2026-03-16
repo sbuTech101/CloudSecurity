@@ -1,0 +1,192 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.6.3">
+  <diagram name="Page-1" id="Y7wrjZWD2oXlauPl7SXZ">
+    <mxGraphModel dx="1112" dy="-574" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JEdnKvoT_90mRO0soFO--89" edge="1" parent="1" source="DT0eZOOEbROUzO_Y6YFn-1" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="349" y="1237" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DT0eZOOEbROUzO_Y6YFn-1" parent="1" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=light-dark(#00188D,#CC0000);shape=mxgraph.azure.computer" value="" vertex="1">
+          <mxGeometry height="70" width="77.78" x="310" y="1120" as="geometry" />
+        </mxCell>
+        <mxCell id="Zs9Cdj6CBcq8GShnSAmN-2" parent="1" style="shape=singleArrow;whiteSpace=wrap;html=1;arrowWidth=0.4;arrowSize=1;verticalAlign=top;fillColor=#00188D;strokeColor=none;sketch=0;pointerEvents=1;shadow=0;dashed=0;direction=south;" value="" vertex="1">
+          <mxGeometry height="60" x="348.89" y="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="Zs9Cdj6CBcq8GShnSAmN-13" parent="1" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.virtual_machine;" value="" vertex="1">
+          <mxGeometry height="83" width="88.33" x="283.47" y="1360" as="geometry" />
+        </mxCell>
+        <mxCell id="JEdnKvoT_90mRO0soFO--26" edge="1" parent="1" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="212.5" y="1230" as="sourcePoint" />
+            <mxPoint x="205" y="1230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JEdnKvoT_90mRO0soFO--98" edge="1" parent="1" source="JEdnKvoT_90mRO0soFO--7" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" target="JEdnKvoT_90mRO0soFO--27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JEdnKvoT_90mRO0soFO--7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Azure AD/RBAC&lt;div&gt;Role-based access&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="117.3" x="117.9" y="1642.47" as="geometry" />
+        </mxCell>
+        <mxCell id="JEdnKvoT_90mRO0soFO--36" edge="1" parent="1" source="JEdnKvoT_90mRO0soFO--10" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="JEdnKvoT_90mRO0soFO--27" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JEdnKvoT_90mRO0soFO--10" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/management_governance/Log_Analytics_Workspaces.svg;" value="" vertex="1">
+          <mxGeometry height="80" width="80" x="284.9200000000001" y="1492" as="geometry" />
+        </mxCell>
+        <mxCell id="JEdnKvoT_90mRO0soFO--11" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/identity/Users.svg;" value="" vertex="1">
+          <mxGeometry height="70" width="64" x="452" y="1796" as="geometry" />
+        </mxCell>
+        <mxCell id="JEdnKvoT_90mRO0soFO--16" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/identity/Users.svg;" value="" vertex="1">
+          <mxGeometry height="70" width="64" x="116.54999999999997" y="1800" as="geometry" />
+        </mxCell>
+        <mxCell id="JEdnKvoT_90mRO0soFO--17" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/identity/Users.svg;" value="" vertex="1">
+          <mxGeometry height="70" width="64" x="290.89" y="1796" as="geometry" />
+        </mxCell>
+        <mxCell id="JEdnKvoT_90mRO0soFO--18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;glass=1;" value="&lt;b&gt;Prowler&lt;/b&gt;&lt;div&gt;Compliance audit&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="460" y="1560" as="geometry" />
+        </mxCell>
+        <mxCell id="JEdnKvoT_90mRO0soFO--79" edge="1" parent="1" source="JEdnKvoT_90mRO0soFO--21" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" target="JEdnKvoT_90mRO0soFO--10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="373" y="1511" />
+            </Array>
+            <mxPoint x="378" y="1510.885" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JEdnKvoT_90mRO0soFO--21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="301.77" width="154" x="445" y="1360" as="geometry" />
+        </mxCell>
+        <mxCell id="JEdnKvoT_90mRO0soFO--42" edge="1" parent="1" source="JEdnKvoT_90mRO0soFO--27" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" target="JEdnKvoT_90mRO0soFO--17" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JEdnKvoT_90mRO0soFO--46" edge="1" parent="1" source="JEdnKvoT_90mRO0soFO--27" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" target="JEdnKvoT_90mRO0soFO--17" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JEdnKvoT_90mRO0soFO--49" edge="1" parent="1" source="JEdnKvoT_90mRO0soFO--27" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" target="JEdnKvoT_90mRO0soFO--17" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JEdnKvoT_90mRO0soFO--50" edge="1" parent="1" source="JEdnKvoT_90mRO0soFO--27" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" target="JEdnKvoT_90mRO0soFO--16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JEdnKvoT_90mRO0soFO--27" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Azure_Sentinel.svg;" value="" vertex="1">
+          <mxGeometry height="85.53" width="75.27" x="287.28999999999996" y="1642.47" as="geometry" />
+        </mxCell>
+        <mxCell id="JEdnKvoT_90mRO0soFO--104" edge="1" parent="1" source="JEdnKvoT_90mRO0soFO--32" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;entryX=0.606;entryY=-0.024;entryDx=0;entryDy=0;entryPerimeter=0;" target="Zs9Cdj6CBcq8GShnSAmN-13" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JEdnKvoT_90mRO0soFO--32" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/hybrid_multicloud/Azure_Operator_Nexus.svg;" value="" vertex="1">
+          <mxGeometry height="68" width="68" x="303.79999999999995" y="1239" as="geometry" />
+        </mxCell>
+        <mxCell id="JEdnKvoT_90mRO0soFO--34" edge="1" parent="1" source="JEdnKvoT_90mRO0soFO--21" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="JEdnKvoT_90mRO0soFO--21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JEdnKvoT_90mRO0soFO--43" edge="1" parent="1" source="JEdnKvoT_90mRO0soFO--70" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;entryX=0.516;entryY=0.014;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" target="JEdnKvoT_90mRO0soFO--11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="453" y="1764" />
+              <mxPoint x="385" y="1756" />
+              <mxPoint x="410" y="1745" />
+            </Array>
+            <mxPoint x="310" y="1727" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JEdnKvoT_90mRO0soFO--51" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0)); font-size: 9px; background-color: transparent;&quot;&gt;&lt;b&gt;Honey-Pot&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="18" width="60" x="297.63" y="1412" as="geometry" />
+        </mxCell>
+        <mxCell id="JEdnKvoT_90mRO0soFO--53" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;b style=&quot;&quot;&gt;T-pot log analytics&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;b style=&quot;&quot;&gt;52.188.2.165-ubuntu server&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="43" width="112" x="258" y="1574" as="geometry" />
+        </mxCell>
+        <mxCell id="JEdnKvoT_90mRO0soFO--56" parent="1" style="rounded=1;fontColor=default;labelBorderColor=none;whiteSpace=wrap;html=1;strokeWidth=0;glass=1;" value="&lt;b&gt;Github/Actions&lt;br&gt;&lt;/b&gt;CI/CD Pipeline" vertex="1">
+          <mxGeometry height="60" width="120" x="460" y="1372" as="geometry" />
+        </mxCell>
+        <mxCell id="JEdnKvoT_90mRO0soFO--20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;glass=1;" value="&lt;b&gt;Checkov&lt;/b&gt;&lt;div&gt;Iac security scan&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="462" y="1476" as="geometry" />
+        </mxCell>
+        <mxCell id="JEdnKvoT_90mRO0soFO--66" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Carol-Analyst&lt;/font&gt;" vertex="1">
+          <mxGeometry height="33" width="72.37" x="288.73999999999995" y="1870" as="geometry" />
+        </mxCell>
+        <mxCell id="JEdnKvoT_90mRO0soFO--67" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Carol-viewer&lt;/font&gt;" vertex="1">
+          <mxGeometry height="35" width="68" x="450" y="1870" as="geometry" />
+        </mxCell>
+        <mxCell id="JEdnKvoT_90mRO0soFO--68" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Alice-admin" vertex="1">
+          <mxGeometry height="28" width="76" x="116.55" y="1873" as="geometry" />
+        </mxCell>
+        <mxCell id="JEdnKvoT_90mRO0soFO--70" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 0, 0));&quot;&gt;alerts&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="323.78" y="1731" as="geometry" />
+        </mxCell>
+        <mxCell id="JEdnKvoT_90mRO0soFO--71" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(102, 102, 255));&quot;&gt;Data&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="318.89" y="1615" as="geometry" />
+        </mxCell>
+        <mxCell id="JEdnKvoT_90mRO0soFO--72" edge="1" parent="1" source="JEdnKvoT_90mRO0soFO--27" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;entryX=0.516;entryY=0.014;entryDx=0;entryDy=0;entryPerimeter=0;" target="JEdnKvoT_90mRO0soFO--54" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="328" y="1686" as="sourcePoint" />
+            <mxPoint x="475" y="1770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JEdnKvoT_90mRO0soFO--54" parent="1" style="rounded=1;whiteSpace=wrap;html=1;textShadow=1;labelBackgroundColor=none;fontColor=default;fillColor=light-dark(#FFFFFF,#1D0046);strokeColor=#3700CC;" value="&lt;font style=&quot;line-height: 70%; font-size: 10px;&quot;&gt;Siem/Threat Detection&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="58.37" x="293.7" y="1698" as="geometry" />
+        </mxCell>
+        <mxCell id="JEdnKvoT_90mRO0soFO--74" edge="1" parent="1" source="JEdnKvoT_90mRO0soFO--70" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="JEdnKvoT_90mRO0soFO--70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JEdnKvoT_90mRO0soFO--76" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(51, 153, 255));&quot;&gt;&lt;b&gt;Logs&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="327.78000000000003" y="1443" as="geometry" />
+        </mxCell>
+        <mxCell id="JEdnKvoT_90mRO0soFO--81" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(51, 153, 255));&quot;&gt;scans&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="369" y="1517" as="geometry" />
+        </mxCell>
+        <mxCell id="JEdnKvoT_90mRO0soFO--83" edge="1" parent="1" source="Zs9Cdj6CBcq8GShnSAmN-13" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.526;entryY=-0.012;entryDx=0;entryDy=0;entryPerimeter=0;" target="JEdnKvoT_90mRO0soFO--10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JEdnKvoT_90mRO0soFO--84" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 51, 51));&quot;&gt;Internet threat Actors&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="116" x="354.89" y="1190" as="geometry" />
+        </mxCell>
+        <mxCell id="JEdnKvoT_90mRO0soFO--86" parent="1" style="swimlane;startSize=0;" value="" vertex="1">
+          <mxGeometry height="683" width="635" x="33" y="1222" as="geometry" />
+        </mxCell>
+        <mxCell id="Zs9Cdj6CBcq8GShnSAmN-4" parent="JEdnKvoT_90mRO0soFO--86" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(204, 102, 0));&quot;&gt;Azure&amp;nbsp; NSG&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(204, 102, 0));&quot;&gt;open to all traffic&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="138" x="320.68" y="59" as="geometry" />
+        </mxCell>
+        <mxCell id="JEdnKvoT_90mRO0soFO--8" parent="JEdnKvoT_90mRO0soFO--86" style="rounded=1;whiteSpace=wrap;html=1;" value="Terraform Iac&lt;div&gt;All infra as code&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="125.2" x="70.8" y="272" as="geometry" />
+        </mxCell>
+        <mxCell id="JEdnKvoT_90mRO0soFO--31" edge="1" parent="JEdnKvoT_90mRO0soFO--86" source="JEdnKvoT_90mRO0soFO--8" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="JEdnKvoT_90mRO0soFO--8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JEdnKvoT_90mRO0soFO--30" parent="JEdnKvoT_90mRO0soFO--86" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" value="&lt;div style=&quot;line-height: 90%;&quot;&gt;&lt;font style=&quot;font-size: 10px; line-height: 90%;&quot;&gt;&lt;b&gt;Azure key Vault&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px; line-height: 90%;&quot;&gt;&lt;b&gt;secrets &amp;amp; creds&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90.23" width="125.39" x="68.53" y="140.38" as="geometry" />
+        </mxCell>
+        <mxCell id="JEdnKvoT_90mRO0soFO--5" parent="JEdnKvoT_90mRO0soFO--86" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Key_Vaults.svg;" value="" vertex="1">
+          <mxGeometry height="30" width="28.8" x="116.82" y="146" as="geometry" />
+        </mxCell>
+        <mxCell id="JEdnKvoT_90mRO0soFO--115" edge="1" parent="JEdnKvoT_90mRO0soFO--86" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="151" y="384" />
+            </Array>
+            <mxPoint x="146" y="345" as="sourcePoint" />
+            <mxPoint x="148.14999999999995" y="416.47" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JEdnKvoT_90mRO0soFO--94" edge="1" parent="1" source="JEdnKvoT_90mRO0soFO--8" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" target="JEdnKvoT_90mRO0soFO--10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="239" y="1540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JEdnKvoT_90mRO0soFO--113" edge="1" parent="1" source="JEdnKvoT_90mRO0soFO--30" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="Zs9Cdj6CBcq8GShnSAmN-13" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="269" y="1402" />
+            </Array>
+            <mxPoint x="275" y="1402" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
