@@ -1,21 +1,17 @@
 # Part 1 — Setting Up the HoneyPot
 
 ## What is a HoneyPot?
-A HoneyPot is a deliberately vulnerable system designed to attract cyber attackers. It looks like a real target but its sole purpose is to be attacked — so we can monitor, study, and learn from the attackers' behaviour.
-
-Think of it like a fake house with all the doors unlocked, filled with cameras, designed to catch burglars in the act.
-
----
+A HoneyPot is a deliberately vulnerable system designed to attract cyber attackers. It looks like a real target but its sole purpose is to be attacked ,so we can monitor, study, and learn from the attackers' behaviour.
 
 ## Why Build a HoneyPot on Azure?
 - Azure provides a real cloud environment where actual threat actors operate
-- Exposing a VM to the internet generates real attack data — not simulated
+- Exposing a VM to the internet generates real attack data , not simulated
 - Microsoft Sentinel gives us enterprise-grade SIEM capabilities to analyse the data
 - The combination demonstrates a real-world SOC workflow
 
 ---
 
-## What We're Building
+## What I Built
 A vulnerable Ubuntu VM deployed on Azure with:
 - All inbound ports open (intentional — to attract attackers)
 - SSH exposed on port 22 (to capture brute force attempts)
