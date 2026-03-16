@@ -28,6 +28,7 @@ The goal is to demonstrate a real-world security operations workflow — from in
 ---
 
 ## 🏗️ Architecture
+![Alt text](image.png)
 
 
 ## Technologies Used
