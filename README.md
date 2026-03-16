@@ -28,8 +28,7 @@ The goal is to demonstrate a real-world security operations workflow — from in
 ---
 
 ##Architecture
-![Cloud Security Diagram](diagram.png)
-
+<img src="diagram.png" width="800"/>
 ## Technologies Used
 
 | Technology | Purpose |
