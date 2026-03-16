@@ -1,4 +1,4 @@
-# 🍯 Azure HoneyPot Cloud Security
+# Azure HoneyPot Cloud Security
 
 **Author:** sbutech101  
 **Certification:** Microsoft AZ-500 (Azure Security Engineer Associate)  
@@ -6,7 +6,7 @@
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This project deploys a **deliberately vulnerable HoneyPot virtual machine** on Microsoft Azure, exposes it to real internet threat actors, and captures all attack data into **Microsoft Sentinel** for analysis by a simulated SOC team.
 
@@ -14,53 +14,23 @@ The goal is to demonstrate a real-world security operations workflow — from in
 
 ---
 
-## 🎯 What Was Achieved
+## What Was Achieved
 
-- ✅ Deployed a live HoneyPot VM exposed to real internet attacks
-- ✅ Captured real threat actor activity via Microsoft Sentinel SIEM
-- ✅ Built a SOC team structure with proper RBAC roles (Admin, Analyst, Viewer)
-- ✅ Secured all infrastructure secrets using Azure Key Vault
-- ✅ Identified and documented security vulnerabilities using Checkov
-- ✅ Generated compliance report using Prowler
-- ✅ Built an automated DevSecOps pipeline using GitHub Actions
-- ✅ Demonstrated a real-world SOC analyst workflow end to end
+- Deployed a live HoneyPot VM exposed to real internet attacks
+- Captured real threat actor activity via Microsoft Sentinel SIEM
+-  Built a SOC team structure with proper RBAC roles (Admin, Analyst, Viewer)
+- Secured all infrastructure secrets using Azure Key Vault
+- Identified and documented security vulnerabilities using Checkov
+- Generated compliance report using Prowler
+- Built an automated DevSecOps pipeline using GitHub Actions
+- Demonstrated a real-world SOC analyst workflow end to end
 
 ---
 
 ## 🏗️ Architecture
 
-```
-                        INTERNET
-                           │
-                    Threat Actors
-                           │
-                    ┌──────▼──────┐
-                    │  HoneyPot   │
-                    │  Azure VM   │  ← Ubuntu 24.04 LTS
-                    │ 52.188.2.165│  ← Exposed to internet
-                    └──────┬──────┘
-                           │ Logs
-                    ┌──────▼──────┐
-                    │    Log      │
-                    │  Analytics  │  ← tpot-logs workspace
-                    │  Workspace  │
-                    └──────┬──────┘
-                           │ Data
-                    ┌──────▼──────┐
-                    │  Microsoft  │
-                    │  Sentinel   │  ← SIEM / Threat Detection
-                    │   (SIEM)    │
-                    └──────┬──────┘
-                           │ Alerts
-                    ┌──────▼──────┐
-                    │  SOC Team   │
-                    │ Alice│Bob│Carol
-                    └─────────────┘
-```
 
----
-
-## 🛠️ Technologies Used
+## Technologies Used
 
 | Technology | Purpose |
 |---|---|
@@ -78,7 +48,7 @@ The goal is to demonstrate a real-world security operations workflow — from in
 
 ---
 
-## 👥 SOC Team Structure
+##SOC Team Structure
 
 | User | Role | Sentinel Access | Responsibility |
 |---|---|---|---|
@@ -88,7 +58,7 @@ The goal is to demonstrate a real-world security operations workflow — from in
 
 ---
 
-## 📁 Project Structure
+##Project Structure
 
 ```
 CloudSecurity/
@@ -112,12 +82,12 @@ CloudSecurity/
 
 ---
 
-## 🔐 Security Design Decisions
+##Security Design Decisions
 
 ### Why is the NSG open to all traffic?
 This is intentional. A HoneyPot works by **attracting attackers** — if we locked down the NSG, threat actors would never connect and we would have no data to analyse. The open NSG rules are a deliberate security design choice, not a mistake.
 
-### Why are two Checkov checks skipped?
+###Why are two Checkov checks skipped?
 | Check | Reason Skipped |
 |---|---|
 | `CKV_AZURE_160` — HTTP port 80 restricted | Intentionally open — HoneyPot design |
@@ -128,7 +98,7 @@ All secrets (VM passwords, subscription IDs, user credentials) are stored in Azu
 
 ---
 
-## 🚀 How to Deploy
+##How to Deploy
 
 ### Prerequisites
 - Azure subscription
@@ -165,7 +135,7 @@ terraform apply
 
 ---
 
-## 🔄 CI/CD Pipeline
+##CI/CD Pipeline
 
 Every time code is pushed to GitHub, the pipeline automatically:
 
@@ -181,7 +151,7 @@ git push → GitHub Actions triggers → Checkov scans → ✅ Pass or ❌ Fail
 
 ---
 
-## 📊 Checkov Scan Results
+##Checkov Scan Results
 
 | Result | Count |
 |---|---|
@@ -198,7 +168,7 @@ git push → GitHub Actions triggers → Checkov scans → ✅ Pass or ❌ Fail
 
 ---
 
-## 📋 Prowler Compliance Report
+## Prowler Compliance Report
 
 Prowler was used to generate a full Azure compliance report against:
 - CIS Azure Benchmark 2.0
@@ -211,7 +181,7 @@ Full report available in `/output/` folder.
 
 ---
 
-## 📝 Lessons Learned
+##Lessons Learned
 
 1. **Conditional Access requires Azure AD Premium P1** — free tier tenants cannot use Conditional Access policies. Security Defaults were used as a free alternative covering MFA and legacy auth blocking.
 
