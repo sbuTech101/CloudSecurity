@@ -10,7 +10,7 @@
 
 This project deploys a **deliberately vulnerable HoneyPot virtual machine** on Microsoft Azure, exposes it to real internet threat actors, and captures all attack data into **Microsoft Sentinel** for analysis by a simulated SOC team.
 
-The goal is to demonstrate a real-world security operations workflow — from infrastructure deployment to threat detection and incident response — using industry-standard tools and best practices.
+The goal is to demonstrate a real-world security operations workflow - from infrastructure deployment to threat detection and incident response - using industry-standard tools and best practices.
 
 ---
 
