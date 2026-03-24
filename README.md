@@ -31,7 +31,7 @@ The goal is to demonstrate a real-world security operations workflow - from infr
 
 [![Cloud Security Diagram](diagram.png)](diagram.png)
 
-## Technologies Used
+Technologies Used
 
 | Technology | Purpose |
 |---|---|
@@ -49,7 +49,7 @@ The goal is to demonstrate a real-world security operations workflow - from infr
 
 ---
 
-##SOC Team Structure
+SOC Team Structure
 
 | User | Role | Sentinel Access | Responsibility |
 |---|---|---|---|
@@ -83,23 +83,23 @@ CloudSecurity/
 
 ---
 
-##Security Design Decisions
+Security Design Decisions
 
 ### Why is the NSG open to all traffic?
 This is intentional. A HoneyPot works by **attracting attackers** — if we locked down the NSG, threat actors would never connect and we would have no data to analyse. The open NSG rules are a deliberate security design choice, not a mistake.
 
-###Why are two Checkov checks skipped?
+Why are two Checkov checks skipped?
 | Check | Reason Skipped |
 |---|---|
 | `CKV_AZURE_160` — HTTP port 80 restricted | Intentionally open — HoneyPot design |
 | `CKV2_AZURE_10` — Microsoft Antimalware | Windows-only feature — VM runs Linux Ubuntu |
 
-### Why Azure Key Vault?
+Why Azure Key Vault?
 All secrets (VM passwords, subscription IDs, user credentials) are stored in Azure Key Vault and referenced in Terraform via `data` blocks. No passwords are hardcoded in any `.tf` files.
 
 ---
 
-##How to Deploy
+How to Deploy
 
 ### Prerequisites
 - Azure subscription
@@ -112,7 +112,7 @@ All secrets (VM passwords, subscription IDs, user credentials) are stored in Azu
   - `bob-password`
   - `carol-password`
 
-### Steps
+Steps
 ```bash
 # 1. Clone the repo
 git clone https://github.com/sbuTech101/CloudSecurity.git
@@ -136,7 +136,7 @@ terraform apply
 
 ---
 
-##CI/CD Pipeline
+CI/CD Pipeline
 
 Every time code is pushed to GitHub, the pipeline automatically:
 
@@ -152,7 +152,7 @@ git push → GitHub Actions triggers → Checkov scans → ✅ Pass or ❌ Fail
 
 ---
 
-##Checkov Scan Results
+Checkov Scan Results
 
 | Result | Count |
 |---|---|
@@ -160,7 +160,7 @@ git push → GitHub Actions triggers → Checkov scans → ✅ Pass or ❌ Fail
 | ❌ Failed | 29 |
 | ⏭️ Skipped (intentional) | 2 |
 
-### Key Findings Fixed:
+Key Findings Fixed:
 | Finding | Fix Applied |
 |---|---|
 | Hardcoded VM password `CyberNOW!` | Moved to Azure Key Vault |
@@ -169,7 +169,7 @@ git push → GitHub Actions triggers → Checkov scans → ✅ Pass or ❌ Fail
 
 ---
 
-## Prowler Compliance Report
+Prowler Compliance Report
 
 Prowler was used to generate a full Azure compliance report against:
 - CIS Azure Benchmark 2.0
@@ -182,7 +182,7 @@ Full report available in `/output/` folder.
 
 ---
 
-##Lessons Learned
+Lessons Learned
 
 1. **Conditional Access requires Azure AD Premium P1** — free tier tenants cannot use Conditional Access policies. Security Defaults were used as a free alternative covering MFA and legacy auth blocking.
 
