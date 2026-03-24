@@ -2,7 +2,7 @@
 
 **Author:** sbutech101  
 **Certification:** Microsoft AZ-500 (Azure Security Engineer Associate)  
-**Status:** Active — Live HoneyPot running at 52.188.2.165
+**Status:** Active - Live HoneyPot running at 52.188.2.165
 
 ---
 
