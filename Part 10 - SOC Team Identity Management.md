@@ -5,7 +5,7 @@ This part covers the complete identity and access management setup for the Honey
 
 ---
 
-## The SOC Team
+##The SOC Team
 
 Three users were created to simulate a real Security Operations Centre team, each with a specific role and access level:
 
