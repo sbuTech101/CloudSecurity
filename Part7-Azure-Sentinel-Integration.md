@@ -5,7 +5,7 @@ Microsoft Sentinel is Azure's cloud-native SIEM (Security Information and Event 
 
 ---
 
-## Why Sentinel for This Project?
+##Why Sentinel for This Project?
 - Captures all attack data from the HoneyPot VM in real time
 - Provides a central dashboard for the SOC team to analyse threats
 - Enables alert rules to notify when specific attack patterns are detected
