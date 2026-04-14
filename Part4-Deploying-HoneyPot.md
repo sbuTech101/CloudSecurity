@@ -1,6 +1,6 @@
 # Part 4 — Deploying the HoneyPot
 
-## What Gets Deployed
+#What Gets Deployed
 Running `terraform apply` deploys the following resources to Azure:
 
 | Resource | Name | Details |
