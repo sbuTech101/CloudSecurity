@@ -5,7 +5,7 @@ CI/CD stands for Continuous Integration / Continuous Deployment. It means every 
 
 ---
 
-## What is DevSecOps?
+##What is DevSecOps?
 DevSecOps means integrating security into the development process automatically — not as an afterthought. Instead of manually running security tools, they run automatically every time code changes.
 
 ```
