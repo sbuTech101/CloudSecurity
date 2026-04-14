@@ -5,7 +5,7 @@ Prowler is an open-source security tool that performs Azure security assessments
 
 ---
 
-## Compliance Frameworks Scanned
+##Compliance Frameworks Scanned
 
 | Framework | Description |
 |---|---|
