@@ -1,6 +1,6 @@
 # Part 5 — Checkov Security Scan
 
-## What is Checkov?
+# What is Checkov?
 Checkov is a static code analysis tool that scans Infrastructure as Code files and checks them against security best practices. It identifies misconfigurations before they reach production.
 
 ---
