@@ -1,6 +1,6 @@
 # Part 11 — Lessons Learned
 
-## Overview
+#Overview
 This document captures the key lessons, challenges, and insights gained from building the Azure HoneyPot Cloud Security project end to end.
 
 ---
@@ -24,7 +24,7 @@ Treat every lab environment like a production environment. Bad habits in labs be
 
 ---
 
-## 2. Azure RBAC vs Key Vault Access Policies
+#2. Azure RBAC vs Key Vault Access Policies
 
 **What happened:**
 After creating tpot-keyvault, the project owner kept getting **403 Forbidden** errors when trying to create secrets — even as the subscription Owner.
