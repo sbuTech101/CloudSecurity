@@ -2,7 +2,7 @@
 
 ## Installing Terraform
 
-### Windows Installation
+##Windows Installation
 1. Download Terraform from https://developer.hashicorp.com/terraform/downloads
 2. Extract the zip file
 3. Add terraform.exe to your system PATH
