@@ -1,6 +1,6 @@
 # Part 8 — Azure Key Vault Secret Management
 
-## The Problem — Hardcoded Secrets
+##The Problem — Hardcoded Secrets
 In the original project, sensitive values were hardcoded directly in Terraform files:
 
 ```hcl
